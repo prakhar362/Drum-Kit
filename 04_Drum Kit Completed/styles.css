@@ -1,0 +1,124 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+.set {
+  perspective: 1000px; /* Creates the 3D space */
+  display: inline-block; /* Ensures the container takes only the needed space */
+  margin-top: 0;
+}
+.w, .a ,.j{
+  background-size: 140%; /* Zooms in the background image */
+  width: 200px;
+  height: 200px; 
+  border-radius: 50%;
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Adds shadow for a raised effect */
+  transform-origin: bottom;
+}
+
+.w {
+  background-image: url("images/ptom.png");
+  transform: rotateX(-20deg) rotateY(-20deg); /* Raise leftwards */
+  transform-origin: left; /* Ensures the div is inclined from the left edge */
+}
+
+.a {
+  background-image: url("images/ptomr.png");
+  transform: rotateX(-20deg) rotateY(20deg); /* Raise rightwards */
+  transform-origin: right; /* Ensures the div is inclined from the right edge */
+}
+.s {
+  background-image: url("images/bass.png");
+    width: 400px; /* Adjust the width as needed */
+      height: 400px; /* Ensure the height is equal to the width */
+      border-radius: 50%;
+      background-size: cover; /* Ensures the image covers the circle properly */
+      background-position: center; /* Centers the image in the circle */
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+      overflow: hidden;
+}
+
+.d {
+  background-image: url("images/bass.png");
+  width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Ensure the height is equal to the width */
+    border-radius: 50%;
+    background-size: cover; /* Ensures the image covers the circle properly */
+    background-position: center; /* Centers the image in the circle */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    overflow: hidden;
+}
+
+.j {
+  background-image: url("images/snare2.png");
+  background-size: 120%;
+  height: 210px;
+  width: 210px;
+  transform: rotateX(-25deg) rotateY(27deg); /* Raise rightwards */
+  transform-origin: right; /* Ensures the div is inclined from the right edge */
+}
+
+.k {
+  background-image: url("images/crash2.png");
+  background-size: 100%;
+  transform: rotateX(-20deg) rotateY(-20deg); /* Raise leftwards */
+  transform-origin: left; /* Ensures the div is inclined from the left edge */
+}
+
+.l {
+  background-image: url("images/kick2.png");
+  width: 500px; 
+  height: 500px;
+  border-radius: 50%;
+  background-size: cover; /* Ensures the image covers the circle properly */
+  background-position: center; /* Centers the image in the circle */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  overflow: hidden;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #283149;
+  font-size: 4rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 50%;
+  display: inline-block;
+  width: 330px;
+  height: 330px;
+  text-align: center;
+  margin: 0px;
+  background-color: white;
+}
